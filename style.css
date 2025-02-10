@@ -86,3 +86,14 @@ p {
     color: #777;
     margin-top: 10px;
 }
+
+.img-container {
+    margin-top: 20px;
+    padding: 0 15px; /* Añadimos margen dentro del contenedor para que la imagen se ajuste */
+}
+
+.img-container img {
+    width: 100%;
+    max-width: 100%; /* Asegura que la imagen no se salga del contenedor */
+    border-radius: 10px;
+}
